@@ -1,0 +1,13 @@
+.register-popup{
+    position: absolute;
+    top: 10px;
+    border: 1px solid;
+    padding: 8px;
+    transition-delay: 2s;
+    background: white;
+    box-shadow: 2px 2px 2px 0px limegreen;
+}
+.popup-close-btn-cont{
+    text-align: center;
+    padding-top: 4px;
+}

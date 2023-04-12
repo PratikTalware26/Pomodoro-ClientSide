@@ -1,0 +1,17 @@
+.nav-cont{
+    position: absolute;
+    top: 10px;
+}
+.nav-cont h1{
+    padding: 10px;
+    /* border: 1px solid; */
+    background-color: white;
+    box-shadow: 2px 2px black;
+    letter-spacing: 0.3em;
+    /* color: #417ce5a8; */
+    /* background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC 51%, #02AAB0 100%); */
+    /* color: white; */
+    background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

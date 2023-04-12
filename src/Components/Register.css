@@ -1,0 +1,57 @@
+.register{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
+    background-image: url("../assets/OIP.jpg");
+    background-size: cover;
+}
+.register-cont{
+    width: 400px;
+    border: 1px solid #ccc;
+    text-align: center;
+    /* padding: 50px; */
+    background-color: white;
+    box-shadow: 2px 2px 8px 0px;
+}
+.reg-head{
+    padding: 14px;
+    color: deeppink;
+    /* background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    color: white; */
+}
+form{
+    padding: 20px;
+}
+form div{
+    padding: 16px;
+}
+form div input{
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #b2b1b1;
+    margin-bottom: 10px;
+    outline: none;
+}
+.form-btn{
+    width: 200px;
+    padding: 10px;
+    /* margin: 10px; */
+    border: 2px solid lightseagreen;
+    /* background: whitesmoke; */
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-size: larger;
+}
+.form-btn:hover{
+    border-color:rgb(41, 216, 41);
+    cursor: pointer;
+}
+.acc-exist{
+    padding: 10px;
+}
+small{
+    color: red;
+    display: block;
+}
